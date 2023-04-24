@@ -1,7 +1,0 @@
-impo
-public class Commodity {
-
-	private String id;
-	private String typeCommodity;
-
-}
