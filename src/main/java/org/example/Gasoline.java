@@ -1,7 +1,7 @@
 package org.example;
 
 public class Gasoline extends Commodity{
-    String csvFile = "/Users/admin/IdeaProjects/commodity-management/Commodity.csv";
+//    String csvFile = "/Users/admin/IdeaProjects/commodity-management/Commodity.csv";
     String line = "";
     String csvSplitBy = ",";
     private String nameGas;

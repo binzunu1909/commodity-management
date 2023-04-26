@@ -3,6 +3,8 @@ public class Petroleum extends Commodity{
 
     private String namePetro;
     private double volumePetroAvailable;
+    private double unitPrice;
+    private double intoMoney;
 
     public Petroleum(String typeCommodity, String namePetro, double volumePetroAvailable) {
         super(typeCommodity);

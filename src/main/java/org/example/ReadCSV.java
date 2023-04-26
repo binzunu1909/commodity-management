@@ -45,11 +45,9 @@ public class ReadCSV {
                 gasolines.add((Gasoline) gasolineObject);
 
             }
-
-            for (Gasoline person : gasolines) {
-                System.out.println(person);
+            for (Gasoline gas : gasolines) {
+                System.out.println(gas);
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

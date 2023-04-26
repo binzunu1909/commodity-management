@@ -1,2 +1,3 @@
-DO 0,05S-II,19.390,400
+name,unit price,lit available
+DO,19.390,400
 KO,19.480,505
