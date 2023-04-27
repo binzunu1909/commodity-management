@@ -6,7 +6,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        choiceFormatReadFile();
+        DataReader reader = new ReaderFile();
+        System.out.println(reader.readFile("./commodities.json"));
+//        choiceFormatReadFile();
 //        System.out.println("Hello!!! Have a good day!!!");
 //        askCustormer();
     }
